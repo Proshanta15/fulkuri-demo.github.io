@@ -300,7 +300,7 @@
   margin-top: 35px;
 }
 #blog-details h4 {
-  margin-top: 10px;
+  margin-top: 20px;
   width: 37%;
   border-radius: 10px;
 }
@@ -513,6 +513,12 @@
 }
 #blog-details .left-item .blog-title h6 {
   font-size: 15px;
+  word-wrap: break-word;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
 }
 #blog-details .left-item .blog-body p {
   font-size: 14px;
@@ -559,7 +565,10 @@
 #blog-share .share-link ul {
   margin-left: 0px;
 }
+#blog-details .blog-rigth h5 {
+  font-size: 20px;
 
+}
 
 /*============================================= END BLOG DETAILS PART============*/
 }
